@@ -1,0 +1,29 @@
+{
+  "name": "agent-receipts",
+  "version": "0.1.0",
+  "description": "Show what Claude Code / Codex would have cost on Anthropic direct vs a flat-rate gateway like Piramyd. Local-only, no uploads.",
+  "type": "module",
+  "bin": {
+    "agent-receipts": "./bin/agent-receipts.js"
+  },
+  "scripts": {
+    "start": "node ./bin/agent-receipts.js",
+    "test": "node --test ./lib/*.test.js"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "token-usage",
+    "cost",
+    "piramyd",
+    "ai-gateway"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhiroash/agent-receipts"
+  }
+}
