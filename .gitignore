@@ -1,2 +1,8 @@
 node_modules/
 .DS_Store
+
+# OS junk
+.DS_Store
+
+# Wrangler local cache
+.wrangler/
